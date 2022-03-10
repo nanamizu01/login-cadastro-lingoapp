@@ -1,0 +1,63 @@
+body{
+    background-color: #8d8d8d;
+    margin: 20px 90px;
+}
+
+.container{
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    height: 570px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.opcaoCadastrar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #322A4E;
+    border-radius: 20px 40px 40px 20px;
+    height: 570px;
+    width: 500px;
+}
+
+.opcaoCadastrar_logo{
+    text-align: center;
+}
+
+.opcaoCadastrar_logo img{
+    height: auto;
+    width: 140px;
+}
+
+.opcaoCadastrar_logo p{
+    font-family: "Fredoka", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #f4f4f4;
+    margin-top: 0;
+}
+
+.opcaoCadastrar_instrucoes {
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.opcaoCadastrar_instrucoes h2{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.opcaoCadastrar_instrucoes p{
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.efetuarLogin{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 700px;
+}
