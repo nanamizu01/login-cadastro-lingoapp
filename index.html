@@ -14,22 +14,31 @@
     </head>
 
     <body>
-        <main class="container">
-            <div class="efetuarLogin">
-               <div class="efetuarLogin_instrucoes">
-                    <h2>Bem-vind@ de volta!</h2>
-                    <p>Preencha com seus dados de login</p>
-               </div>
-            </div>
-            <div class="opcaoCadastrar">
-                <div class="opcaoCadastrar_logo">
-                    <img src="assets/img/logo_lingoapp.png" alt="logoLingoApp">
-                    <p>LingoApp</p>
+        <main>
+            <div class="container">
+                <div class="cadastro">
+                    <div class="cadastro_logo">
+                        <img src="/assets/img/logo_lingoapp.png" alt="Ícone da Logo do LingoApp">
+                        <h2>LingoApp</h2>
+                    </div>
+                    <div class="cadastro_instrucoes">
+                        <h3>É novo por aqui?</h3>
+                        <p>Se inscreva na nossa plataforma para aprender inglês gratuitamente!</p>
+                        <button>CADASTRAR-SE</button>
+                    </div>
                 </div>
-                <div class="opcaoCadastrar_instrucoes">
-                    <h2>É novo por aqui?</h2>
-                    <p>Se inscreva na nossa plataforma para utilizar as nossas ferramentas gratuitamente!</p>
-                    <button class="btnCadastrar">Cadastrar-se</button>
+                <div class="login">
+                    <div class="login_titulo">
+                        <h2>Bem vindo de volta!</h2>
+                    </div>
+                    <form class="login_entrar">
+                        <p>Preencha com seus dados de login</p>
+                        <div class="login_entrar input">
+                            <input type="text" name="email_login" placeholder="e-mail" required>
+                            <input type="password" name="email_login" placeholder="senha" required>
+                        </div>
+                        <button type="submit">ENTRAR</button>
+                    </form>
                 </div>
             </div>
         </main>
